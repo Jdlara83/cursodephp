@@ -1,9 +1,9 @@
 <?php
 
 if($_GET){
-    $nombre=$_GET['nombre'];
+    $nombre=$_GET['txtNombre'];
 
-    echo "Hola" .$nombre;
+    echo "Hola  " .$nombre;
 }
 
 ?>
