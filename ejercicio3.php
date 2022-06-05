@@ -1,9 +1,8 @@
 <?php
+if($_POST){
+    $nombre=$_POST['txtNombre'];
 
-if($_GET){
-    $nombre=$_GET['txtNombre'];
-
-    echo "Hola  " .$nombre;
+    echo "Hola  " .$nombre . " como estas";
 }
 
 ?>

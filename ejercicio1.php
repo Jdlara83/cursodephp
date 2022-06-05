@@ -16,7 +16,7 @@ if ($_POST){
 </head>
 
 <body>
-    <form action="ejercicio3.php" method="get">
+    <form action="ejercicio3.php" method="post">
         Nombre:
         <input type="text" name="txtNombre" id="">
         <br>
